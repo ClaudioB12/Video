@@ -21,3 +21,10 @@ npm run render   # genera out/cumple-50-percy.mp4
 
 Si Remotion no puede descargar su Chrome, indica uno ya instalado:
 `REMOTION_CHROME=/ruta/a/chrome npm run render`.
+
+## Música
+
+`public/musica/musica-sentimental.mp3` es una pieza original de piano y cuerdas
+compuesta y sintetizada con `scripts/componer_musica.py` (sin derechos de terceros).
+Para regenerarla: `python3 scripts/componer_musica.py musica.wav` y convertir a MP3 con ffmpeg.
+Para usar otra canción, reemplaza ese archivo MP3 (mismo nombre) y vuelve a renderizar.
