@@ -1,0 +1,24 @@
+{
+  "name": "video-cumpleanos-percy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Video de cumpleaños: 50 años de Percy (Remotion)",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render Cumple50Percy out/cumple-50-percy.mp4",
+    "still": "remotion still Cumple50Percy out/preview.png"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.535",
+    "@remotion/fonts": "^4.0.535",
+    "@remotion/google-fonts": "4.0.535",
+    "@remotion/transitions": "^4.0.535",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.535"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.8",
+    "typescript": "5.8.3"
+  }
+}
